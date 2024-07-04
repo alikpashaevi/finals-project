@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.box {
+  height: 120px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: transform 0.5s, opacity 0.5s;
+}
+.teal { background-color: teal; }
+.green { background-color: green; }
+.yellow { background-color: yellow; }
+.crimson { background-color: crimson; }
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
